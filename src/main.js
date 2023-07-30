@@ -51,6 +51,8 @@ function main() {
 
     //Orbit
     const controls = new OrbitControls( camera, renderer.domElement );
+    controls.minDistance = 1
+    controls.maxDistance = 3
 
     //Background
     const rows = 200
