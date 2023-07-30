@@ -1,0 +1,24 @@
+  @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+
+  font-weight: normal;
+}
+
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#progress {
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
